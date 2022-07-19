@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "text";
+  src: url("../fonts/Latinka Medium.otf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #323639;
+  overflow-x: hidden;
+}
+
+#navDiv {
+  width: 100%;
+  height: 12vh;
+  color: white;
+  font-family: "text";
+}
+#navDiv #navLogo {
+  height: auto;
+  width: 4.5vw;
+  position: absolute;
+  left: 2vw;
+  top: 1vh;
+}
+#navDiv #navLinks {
+  position: absolute;
+  right: 0;
+  display: inline;
+  float: right;
+  width: auto;
+  height: 100%;
+}
+#navDiv #navLinks ul {
+  float: right;
+  margin-top: 4vh;
+  width: 100%;
+  font-size: 0.8em;
+}
+#navDiv #navLinks ul li {
+  display: inline;
+  list-style: none;
+  padding-left: 4vw;
+}
+#navDiv #navLinks ul #searchBar {
+  width: 10vw;
+  margin-left: 4vw;
+}
+
+#bannerDiv {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 80vh;
+}
+#bannerDiv #bannerImg {
+  height: 100%;
+  width: 100vw;
+}
+#bannerDiv #bannerTextDiv {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20vh;
+  z-index: 1;
+  color: white;
+}
+#bannerDiv #bannerTextDiv #bannerBtn {
+  color: white;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: #323639;
+}
+
+#movieListDiv {
+  width: 100vw;
+  height: 50vh;
+  background-color: #323639;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#movieListDiv #movieImg {
+  display: inline;
+  float: left;
+  height: 40vh;
+  width: 30vh;
+  margin-top: 6vh;
+  margin-left: -7vw;
+}
+#movieListDiv #movieInfo {
+  float: left;
+  margin-left: 5vw;
+  margin-top: 6vh;
+}
+#movieListDiv #movieInfo #movieDesc {
+  right: 46.5vw;
+}/*# sourceMappingURL=style.css.map */
